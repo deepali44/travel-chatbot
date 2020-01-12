@@ -1,0 +1,147 @@
+{"intents": [
+        {"tag": "name",
+        "patterns": ["Hi,What's your name?", "May i know your name?" ,"Who's this?", "whom i'm talking to?", "Who are you?", "what's your good name", "Are you a human?", "introduce yourself", "Name yourself", "Let me know your name", "What should i call you?" , "What can i call you?","what is your name"],
+        "responses": ["Hello, I'm Tensor", "It's Tensor ", " Tensor here", "My name is Tensor", "you are talking to Tensor", "This is Tensor,your chat assistant", "Tensor is my name"],
+        "context_set": ""
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi","hey" ,"Hello", "Is anyone there?", "Holla", "Good day"],
+         "responses": ["Hello", "Good to see you ", "Hi there, how can I help?","Happy to see you"],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["I need your help","Help me","i need your assistance","can you help me","can you guide me"],
+         "responses": ["Hello, what can i help you with", "Yes, Im there to help", "Sure, how can i help you","Glad you asked me. What can i help you with?"],
+         "context_set": ""
+        },
+        {"tag": "how",
+         "patterns": [ "How is it going?", "How are you doing", "What's up?","how are you"],
+         "responses": [ "Fine", "Good" , "Okay", "Great", "Could be better", "Not so great", "Very well, thanks for asking", "Fine as always", "Not much", "Not too much", "Nothing much", "The sky's up but I'm fine thanks. What about you?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.","Bye","Ill wait for you to come back. Bye","Bubyeeeeee"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","Thanks for help"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","You're Welcome","Dont mention","My honor helping you. Thats to dramatic but yeah welcome","Welcome..."]
+        },
+        {"tag": "Book",
+         "patterns": ["I want to book my travel", "Book my travel please", "Do my booking please","Book the travel" ],
+         "responses": ["Please confirm the booking of the travel for shimla?", "Yes ill book. Your confirmation for the booking","Confirm your booking","Your confirmation on booking"]
+        },
+        {"tag": "Booking",
+         "patterns": ["where i book my travel", "How can i do the booking?", "how can i book my travel?" ],
+         "responses": ["What do you want to book?", "well then you are at the right place tell me where would you like to travel","Ill help you up. Where eould yu like to travel"]
+        },
+        {"tag": "travel",
+         "patterns": ["umm, i am planning to travel", "Where can i travel?", "Suggest me place to travel?" ,"What can you suggest me to travel", "I want to travel", "I want to travel"],
+         "responses": ["What kind of place would you like to travel", "what kind of travel place would you prefer","What type of place you would prefer going? I can suggest you some sunny places, snowy places and many more","How about a snowy place? Its quite hot these days","I would definitely suggest you snowy place. Dont you think its too hot these days", "Snowy Place !!!!","How about going to hill station"]
+        },
+        {"tag": "travelchoice",
+        "patterns": ["umm,I want to travel to some snowy place", "i am thinking to visit some hill stations", "Can you suggest me some relaxing places to visit?" ,"can you suggest me to travel","Suggest me a place to travel","what place would you recommend me to travel","What place would you suggest me to travel"],
+        "responses": ["I think you would love visiting Shimla. Its quite pleasant there", "How about Shimla, it has wonderful environment","Snowy place. Thats got to be shimla"]
+        },
+        {"tag": "cash",
+         "patterns": ["Do the hotel take credit cards?", "Does the hotel accept Mastercard?", "Is the hotel cash only cash only?" ],
+         "responses": ["The hotel accepts VISA, Mastercard and AMEX,. But dont worry ill do that work for you", "Hotel accept most major credit cards. But as im your assistant pay me and ill pay them"]
+        },
+        {"tag": "hotel",
+         "patterns": ["Can you suggest me some hotels?", "which are the best hotels there?", "where should i stay there?","Suggest me places to stay","Which hotel is the best in that locality?","what about the accomodation"],
+         "responses": ["Just as the place there are beautiful hotels there. Radisson Jass, Hotel willow banks, hotel diplomat and more", "Hotel willow banks, Hotel diplomat, Shimla Residency"],
+         "context_pattern": "hotel"
+        },
+        {"tag": "where",
+         "patterns": ["Where do you live","where do you stay","Where do you live","where is your home"],
+         "responses": ["I reside here", "Its a secret","Well my home is tensor model. Thats where i come from"]
+        },
+        {"tag": "eat",
+         "patterns": ["Suggest me a place to eat","what place would you recommend me to eat","where can i eat food","where can i have food","Places to eat"],
+         "responses": ["Cafe Shimla,Hideout Cafe,Himacholi Rasoi Hotel and many more options", "You can eat in these hotels Hideout Cafe, Cafe Shimla, Wake and Bake Cafe with moderate pricing"]
+        },
+        {"tag": "eat cost",
+         "patterns": ["Is the cafe costly","How much will it cost me to eat a lunch","is the food costly"," Food cost"],
+         "responses": ["The charges are moderate", "These are moderately charged cafe","The cost isnt much","It will charge around 500 for one person"]
+        },
+        {"tag": "weather",
+         "patterns": ["how is the weather there","what is the climate","how are the weather conditions","What will be the weather be like","Will it be rainy"],
+         "responses": ["It is rainy there", "Its chilly cold and raining. Best time to visit","The weather is quite cool and raining","Snowfall!!!"]
+        },
+        {"tag": "Umbrella",
+         "patterns": ["Do i need an umbrella","Do i need to carry umbrella","is umbrella needed","Should i carry an umbrella"],
+         "responses": ["You never know when the climate will change but do carry umbrella", "Yes, it is needed","Carry Umbrella. The weather is rainy there","Its always better to be on a safer side. So do carry"]
+        },
+        {"tag": "rain",
+         "patterns": ["Is it raining there","is the weather rainy there","will it rain","is there heavy shower of rain"],
+         "responses": ["It is rainy there", "Its chilly cold and raining. Best time to visit","The weather is quite cool and raining","Snowfall and lots of rain!!!"]
+        },
+        {"tag": "pizza",
+         "patterns": ["Where can i eat pizza","suggest me place to eat pizza","Place to eat pizza","where can i get pizza"],
+         "responses": ["umm... there's cafe under tree, cafe sol, book cafe, La Pino's Pizza and your favourite domino's is there tooo", "Yes there is domino's, Hideout cafe, cafe sol and many more options"]
+        },
+        {"tag": "cafeteria",
+         "patterns": ["what cafes are there in shimla","are there cafes in shimla","suggest me cafe","suggest me place to drink coffee","place to hangout with friends for a coffee"],
+         "responses": ["umm... there's cafe honey hut, Indian coffee house, EBR Cafe and your favourite cafe coffee day is there tooo","CCD!!", "Yes there is CCD, cafe honey hut, Indian coffee house, EBR Cafe and many more options"]
+        },
+        {"tag": "cab",
+         "patterns": ["book me a cab ","where can i book a cab","iwant to book a cab","how can i travel","can i get a taxi","book me a taxi"],
+         "responses": ["Sure ill book your cab. Tell me your to and from location","Ill book the cab tell me your destination","Ill do your cab booking give me the details please"]
+        },
+        {"tag": "location",
+         "patterns": ["from shimla to manali","the travel will be from shimla to manali","cab from shimla  to manali","shimla manali","shimla to manali"],
+         "responses": ["Yes i have booked your cab. Enjoy your ride", "Your booking for the cab is done","Done with your booking. Have a great ride. Do remember to rate my ride"]
+        },
+        {"tag": "charges",
+         "patterns": ["Is the hotel costly","How much will the hotel cost me for a day","is the hotel costly"," hotel cost","Cost of hotel"],
+         "responses": ["The charges are moderate", "These are moderately charged hotels","The cost isnt much","It will charge around 4000 for one day"]
+        },
+        {"tag": "ratings",
+         "patterns": ["How will you rate the hotel","what is the rating of the hotel","Rate the hotel"],
+         "responses": ["I'll give it 4 stars", "Its a 4 stars hotel","Rating of the hotel is 4 stars"]
+        },
+        {"tag": "hotel services",
+         "patterns": ["what are the services offered by the hotel","which are the services offered or provided by the hotel","facilities at hotel"],
+         "responses": ["The services offered are 24-hour reception, room service, children's play area, free Wi-Fi, Free parking area, Campfire Bon Fire, Doctor on call, Fitness center, Laundry and dry cleaning", "Hotel provides the best services like 24-hour reception, room service, children's play area, free Wi-Fi, Free parking area, Campfire Bon Fire, Doctor on call, Fitness center, Laundry and dry cleaning"]
+        },
+        {"tag": "shopping malls",
+        "patterns": ["what shopping malls are there in shimla","are there shopping malls in shimla","suggest me a shopping malls","suggest me place for shoppping","place to go for shopping with friends"],
+        "responses": ["umm... there's City Centre Mall Shimla Modern, SDA Complex, Archies New Shimla, Nabha Shopping Complex, Amartex Shoppers World and many more options","Yes there are many malls one can visit like SDA Complex, Archies New Shimla, Nabha Shopping Complex, Amartex Shoppers World, City Centre Mall Shimla Modern "]
+        },
+        {"tag": "ice-cream",
+        "patterns": ["Is there any ice-cream parlours in shimla","are there ice-cream parlours in shimla","suggest me ice-cream parlor","suggest me place to eat ice-cream","place to eat ice-cream with friends","where can i have ice-cream"],
+        "responses": ["umm... there's Embassy ice cream, City ice cream parlour, Baskin Robbins, City pulse departmental store and your favourite Kwality Wall's is there tooo","Kwality Wall's!!", "Yes there is Kwality Wall's, Embassy ice cream, City ice cream parlour, Baskin Robbins, City pulse departmental store and many more options"]
+        },
+        {"tag": "Temples",
+        "patterns": ["what temples are there in shimla","are there temples in shimla","suggest me temple","suggest me place for worship"],
+        "responses": ["umm... there's Kali bari temple, Kamna devi temple, Sankal Mochan temple, Ram Mandir, Hanuman Mandir, Mahasu devta temple", "Yes there are many like Kali bari temple, Kamna devi temple, Sankal Mochan temple, Ram Mandir, Hanuman Mandir, Mahasu devta temple where one can visit to gain positivity and calmness"]
+        },
+        {"tag": "Hospitals",
+        "patterns": ["which hospitals are there in shimla in case of emergency","are there hospitals in shimla","Nearby Hospitals in emergency "],
+        "responses": ["umm... there's Tenzin Hospital, Simla Sanitarium & Hospital, Indus Hospital, Deendyal Upadhyay Zonal Hospital, IGMC Shimla, Aastha Hospital & Pediatric Centre, Tender care hospital", "Yes there are many hospitals nearby like Tenzin Hospital, Simla Sanitarium & Hospital, Indus Hospital, Deendyal Upadhyay Zonal Hospital, IGMC Shimla, Aastha Hospital & Pediatric Centre, Tender care hospital"]
+        },
+        {"tag": "medical stores",
+        "patterns": ["which medicall stores are there in shimla in case of emergency","are there medical stores in shimla","Nearby Medical stores in emergency "],
+        "responses": ["umm... there's Chandel Medical store, Suraj medical store, Rakesh medical store, Gopal medical store, Jai Bharat medical store, Him medical store, Bhasin medical store, Pacific Chemists", "Yes there are many medical stores nearby like Chandel Medical store, Suraj medical store, Rakesh medical store, Gopal medical store, Jai Bharat medical store, Him medical store, Bhasin medical store, Pacific Chemists"]
+        },
+        {"tag": "important places points",
+         "patterns": ["Which are the important places or points to vist ","Must visit places in Shimla","Best points places in shimla","Some leading attractive places to visit in shimla"],
+         "responses": ["Leading attractive palces to visit are Chadwick Falls, Christ Church Shimla, Himalayan Bird Park, View Point, Himachal State Museum, Viceregal Lodge and Botanical Gardens, Gaiety heritage cultural complex shimla", "Must visit places in shimla are Chadwick Falls, Christ Church Shimla, Himalayan Bird Park, View Point, Himachal State Museum, Viceregal Lodge and Botanical Gardens, Gaiety heritage cultural complex shimla "]
+        },
+        {"tag": "food ",
+         "patterns": ["what kind of food is available in shimla","Shimla's speciality for food","what are the different types of food in shimla","Food in shimla"],
+         "responses": ["Some of the shimla famous delicious foods are Channa Madra, Chiken Anardana, Siddus, Sepu badi Madra, Auriya Kadoo ( Tasty pumpkin), and many more mouth watering dishes","You can go for tasty mouth watering dishes like Channa Madra, Chiken Anardana, Siddus, Sepu badi Madra, Auriya Kadoo ( Tasty pumpkin) "]
+        },
+        {"tag": "language",
+        "patterns": ["which are the widely spoken languages in shimla?","Local languages of shimla","which is the main language of shimla" ],
+        "responses": ["Hindi is most widely spoken language in the city followed by Punjabi whereas the local language of pahari is spoken by ethnic pahari people","Most of the people in Shimla speak the pahari langauge. Hindi and Punjabi is also spoken here"]
+        },
+        {"tag": "reviews",
+        "patterns": ["What are the review of the hotel","hotel review","how's the hotel review"],
+        "responses": ["Beautifully located and amazing stay, Clean and friendly, Ambience atmosphere, staff is very friendly and the rooms are very nice,eagerness to fix mistakes"]
+        },
+        {"tag": "guides",
+        "patterns": ["are there tour guides available in shimla"],
+        "responses": ["Yes..there are many local guides available who has deep knowledge about the city and its history and also patiently shows the whole city"]
+        }
+]
+}
